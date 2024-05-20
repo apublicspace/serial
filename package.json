@@ -1,0 +1,27 @@
+{
+	"name": "@publicspace/serial",
+	"version": "0.1.0",
+	"license": "MIT",
+	"author": "Sam Larsen",
+	"description": "Serialize HTML and JSON data with Cheerio",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/apublicspace/serial"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha",
+		"lint": "prettier --use-tabs --trailing-comma 'none' --check .",
+		"format": "prettier --use-tabs --trailing-comma 'none' --write ."
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.12"
+	},
+	"devDependencies": {
+		"chai": "^5.1.1",
+		"jsdom": "^24.0.0",
+		"mocha": "^10.4.0",
+		"prettier": "^3.2.5"
+	},
+	"type": "module"
+}
